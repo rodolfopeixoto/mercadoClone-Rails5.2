@@ -29,6 +29,22 @@ Configuração inicial
 Documentação
 ----------------------
 
+For add the gem better_erros
+
+in folder: config/development.rb
+
+```ruby
+  BetterErrors::Middleware.allow_ip! 'IP-DOCKER'
+```
+
+
+For add gem rails-i18n
+
+create folder in config/initializers/locale.rb
+
+```ruby
+  I18n.default_locale = :"pt-BR"
+```
 
 ### Links diretos
 
