@@ -1,24 +1,37 @@
-# README
+# rogpe [ MarketPlace ]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Markeplace App
 
-Things you may want to cover:
+Exemplo da aplicação: 
 
-* Ruby version
+[www.about.me/rodolfopeixoto](http://www.about.me/rodolfopeixoto) 
 
-* System dependencies
+Versão do Projeto 0.1
+================
 
-* Configuration
+Sobre esta versão
 
-* Database creation
+---------------------
+Site desenvolvido:
+Utilizei:
+- Ruby 2.4
+- Rails 5.2
+- GEMs
 
-* Database initialization
+ATENÇÃO
 
-* How to run the test suite
+---------------------
 
-* Services (job queues, cache servers, search engines, etc.)
+Configuração inicial
 
-* Deployment instructions
+---------------------
 
-* ...
+Documentação
+----------------------
+
+
+### Links diretos
+
+Desenvolvimento
+---------------------
+-   [Rodolfo Peixoto](http://www.rogpe.me)
