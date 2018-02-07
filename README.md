@@ -46,6 +46,12 @@ create folder in config/initializers/locale.rb
   I18n.default_locale = :"pt-BR"
 ```
 
+For add gem devise with i18n
+
+```ruby
+  gem 'devise-i18n'
+```
+
 ### Links diretos
 
 Desenvolvimento
