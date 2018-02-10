@@ -52,6 +52,12 @@ For add gem devise with i18n
   gem 'devise-i18n'
 ```
 
+For generate rails-rnd
+
+```
+gem 'rails rnd'
+```
+
 ### Links diretos
 
 Desenvolvimento

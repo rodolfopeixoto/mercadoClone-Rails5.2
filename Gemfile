@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n'
 gem 'devise'
 gem 'devise-i18n'
-gem 'rails-erd'
+gem 'bootstrap_sb_admin_base_v2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -32,7 +32,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'better_errors'
-  gem "binding_of_caller"
+  gem 'binding_of_caller'
+gem 'rails-erd'
 end
 
 group :test do
