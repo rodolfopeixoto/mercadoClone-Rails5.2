@@ -58,6 +58,12 @@ For generate rails-rnd
 gem 'rails rnd'
 ```
 
+Site of the Rails Assets:
+[https://rails-assets.org/#/]
+(https://rails-assets.org/#/)
+
+Command find_or_create_by for check if exists, case not create.
+
 ### Links diretos
 
 Desenvolvimento
