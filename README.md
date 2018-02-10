@@ -64,6 +64,14 @@ Site of the Rails Assets:
 
 Command find_or_create_by for check if exists, case not create.
 
+
+In controller added layout "nameLayout"
+
+```
+  layout "backoffice"
+```
+
+
 ### Links diretos
 
 Desenvolvimento
