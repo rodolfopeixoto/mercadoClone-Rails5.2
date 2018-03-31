@@ -3,6 +3,11 @@ FROM ruby:2.4
 ENV HOME /root
 
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev curl git nodejs
+
+RUN apt-get install -y aptitude
+
+RUN aptitude install -y graphviz
+
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ENV NVM_DIR /usr/local/.nvm

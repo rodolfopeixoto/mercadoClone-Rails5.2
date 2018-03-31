@@ -46,6 +46,38 @@ create folder in config/initializers/locale.rb
   I18n.default_locale = :"pt-BR"
 ```
 
+For add gem devise with i18n
+
+```ruby
+  gem 'devise-i18n'
+```
+
+For generate rails-rnd
+
+```
+gem 'rails rnd'
+```
+
+Site of the Rails Assets:
+[https://rails-assets.org/#/]
+(https://rails-assets.org/#/)
+
+Command find_or_create_by for check if exists, case not create.
+
+
+In controller added layout "nameLayout"
+
+```
+  layout "backoffice"
+```
+
+
+#### Bootboxjs
+
+Podemos utilizar uma lib js para alterar o style do alert.
+
+
+
 ### Links diretos
 
 Desenvolvimento
