@@ -4,25 +4,32 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.4.3'
 
 gem 'rails', '~> 5.2.0.rc1'
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n'
 gem 'devise'
 gem 'devise-i18n'
 gem 'bootstrap_sb_admin_base_v2'
-gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
+gem 'enum_help'
+gem 'pundit'
 
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap', '3.3.5' 
+  gem 'rails-assets-notifyjs'
+  gem 'rails-assets-bootbox'
+end
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker'
 end
 
 group :development do

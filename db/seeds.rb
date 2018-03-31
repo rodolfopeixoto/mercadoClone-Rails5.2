@@ -14,3 +14,10 @@ categories = [
 categories.each do |category|
   Category.find_or_create_by(description: category)
 end
+
+Admin.create!(email: 'admin@admin.com',
+              name: 'Rodolfo Peixoto',
+              password: '123456789',
+              password_confirmation: '123456789',
+              role: 0
+              ) unless Admin.all.exists?

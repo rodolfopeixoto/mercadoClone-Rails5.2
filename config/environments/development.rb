@@ -5,7 +5,7 @@ Rails.application.configure do
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
 
-  BetterErrors::Middleware.allow_ip! '192.168.16.1'
+  BetterErrors::Middleware.allow_ip! '172.18.0.1'
 
   config.cache_classes = false
 

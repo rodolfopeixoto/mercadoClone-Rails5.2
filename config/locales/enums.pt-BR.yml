@@ -1,0 +1,5 @@
+pt-BR:
+  enums:
+      role:
+        full_access: Completo
+        restricted_access: Restrito
