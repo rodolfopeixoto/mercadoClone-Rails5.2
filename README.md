@@ -76,7 +76,31 @@ In controller added layout "nameLayout"
 
 Podemos utilizar uma lib js para alterar o style do alert.
 
+#### Previsualizando MAILER
 
+Poderemos criar um preview para o mailer e visualizarmos o email em http://localhost:3000/rails/mailers
+
+Para utilizar o mailcatcher precisamos adicionar a GEM:
+
+```ruby
+ gem 'mailcatcher'
+```
+Caso esteja usando o docker-compose e tenha criado uma networking, você poderá chamar o container via app:
+
+Pasta: config/environments/development.rb
+
+Em address: 'mailcatcher' é o nome do container no docker-compose.
+
+```ruby
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => 'mailcatcher', :port => 1025 }
+  config.action_mailer.raise_delivery_errors = false
+```
+
+
+#### CICLO AJAX RAILS
+
+VIEW -> CONTROLLER -> *.js.erb -> VIEW
 
 ### Links diretos
 
