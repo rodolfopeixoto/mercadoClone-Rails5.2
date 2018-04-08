@@ -97,6 +97,11 @@ Em address: 'mailcatcher' é o nome do container no docker-compose.
   config.action_mailer.raise_delivery_errors = false
 ```
 
+
+#### CICLO AJAX RAILS
+
+VIEW -> CONTROLLER -> *.js.erb -> VIEW
+
 ### Links diretos
 
 Desenvolvimento
