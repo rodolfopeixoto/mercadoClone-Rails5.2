@@ -44,14 +44,16 @@
                         <%= form.password_field :password_confirmation, class: 'form-control', placeholder: 'Confirmação da senha' %>
                     </div>
 
-                    <div class="form-group">
-                        <label>Função</label>
-                        <%= form.collection_radio_buttons(:role, options_for_roles, :id, :description) do |builder| %>
-                          <div class="radio">
-                            <%= builder.label { builder.radio_button + builder.text } %>
-                          </div>
-                        <% end %>
-                    </div>  
+                   <% if policy(@admin).edit? %>
+                        <div class="form-group">
+                            <label>Função</label>
+                            <%= form.collection_radio_buttons(:role, options_for_roles, :id, :description) do |builder| %>
+                            <div class="radio">
+                                <%= builder.label { builder.radio_button + builder.text } %>
+                            </div>
+                            <% end %>
+                        </div>
+                    <% end %>
 
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary form-control">Salvar</button>
